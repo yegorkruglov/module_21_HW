@@ -25,24 +25,40 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var circle8: MyCustomView!
     
+    var arrayOfCircles = [MyCustomView]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let arrayOfCircles = [circle1, circle2, circle3, circle4, circle5, circle6, circle7, circle8]
+        
+        arrayOfCircles.append(circle1)
+        arrayOfCircles.append(circle2)
+        arrayOfCircles.append(circle3)
+        arrayOfCircles.append(circle4)
+        arrayOfCircles.append(circle5)
+        arrayOfCircles.append(circle6)
+        arrayOfCircles.append(circle7)
+        arrayOfCircles.append(circle8)
+        
         for circle in arrayOfCircles {
-            circle!.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
+            circle.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
         }
     }
     
     @IBAction func panCircle1(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
         gesture.setTranslation(.zero, in: view)
         guard gesture.state == .ended else { return }
         print("Circle 1 was panned")
+        
+        //disappearing
+        
     }
     
     @IBAction func panCircle2(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
@@ -61,6 +77,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func panCircle4(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
@@ -70,6 +87,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func panCircle5(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
@@ -79,6 +97,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func panCircle6(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
@@ -88,6 +107,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func panCircle7(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
@@ -97,6 +117,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func panCircle8(_ gesture: UIPanGestureRecognizer) {
+        //panning
         let gestureTranslation = gesture.translation(in: view)
         guard let gestureView = gesture.view else { return }
         gestureView.center = CGPoint(x: gestureView.center.x + gestureTranslation.x, y: gestureView.center.y + gestureTranslation.y)
