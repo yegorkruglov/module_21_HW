@@ -27,7 +27,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let arrayOfCircles = [circle1, circle2, circle3, circle4, circle5, circle6, circle7, circle8]
+        for circle in arrayOfCircles {
+            circle!.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
+        }
     }
     
     @IBAction func panCircle1(_ gesture: UIPanGestureRecognizer) {
