@@ -53,8 +53,21 @@ class ViewController: UIViewController {
         guard gesture.state == .ended else { return }
         print("Circle 1 was panned")
         
-        //disappearing
+        //disappearing and modifing
+        var targetCircle = MyCustomView()
         
+        arrayOfCircles.remove(at: 0)
+        
+        for circle in arrayOfCircles {
+            if circle1.frame.intersects(circle.frame) {
+                circle1.isHidden = true
+                targetCircle = circle
+                targetCircle.frame.size.height += 10
+                targetCircle.frame.size.width += 10
+                targetCircle.circleColor = .blue
+                print("Circle 1 was hidden. Circle \(circle.labelText) was modified")
+            }
+        }
     }
     
     @IBAction func panCircle2(_ gesture: UIPanGestureRecognizer) {
