@@ -29,8 +29,8 @@
             <viewLayoutGuide key="safeArea" id="ayJ-wK-8yF"/>
             <color key="backgroundColor" systemColor="systemYellowColor"/>
             <constraints>
-                <constraint firstItem="ElP-Tf-Oqc" firstAttribute="centerX" secondItem="n4V-9o-6Ia" secondAttribute="centerX" id="Sgu-Ia-Bhs"/>
-                <constraint firstItem="ElP-Tf-Oqc" firstAttribute="centerY" secondItem="n4V-9o-6Ia" secondAttribute="centerY" id="xmq-cq-7zR"/>
+                <constraint firstItem="ElP-Tf-Oqc" firstAttribute="centerX" secondItem="n4V-9o-6Ia" secondAttribute="centerX" id="9AP-UP-8zW"/>
+                <constraint firstItem="ElP-Tf-Oqc" firstAttribute="centerY" secondItem="n4V-9o-6Ia" secondAttribute="centerY" id="yRC-7b-X4u"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="317" y="14"/>
