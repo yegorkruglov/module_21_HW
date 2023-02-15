@@ -25,25 +25,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var circle8: MyCustomView!
     
-    var arrayOfCircles = [MyCustomView]()
-    
     var workingSet = Set<MyCustomView> ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        arrayOfCircles.append(circle1)
-        arrayOfCircles.append(circle2)
-        arrayOfCircles.append(circle3)
-        arrayOfCircles.append(circle4)
-        arrayOfCircles.append(circle5)
-        arrayOfCircles.append(circle6)
-        arrayOfCircles.append(circle7)
-        arrayOfCircles.append(circle8)
-        
-        for circle in arrayOfCircles {
-            circle.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
-        }
         
         workingSet.insert(circle1)
         workingSet.insert(circle2)
@@ -53,6 +38,10 @@ class ViewController: UIViewController {
         workingSet.insert(circle6)
         workingSet.insert(circle7)
         workingSet.insert(circle8)
+        
+        for circle in workingSet {
+            circle.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
+        }
     }
     
     @IBAction func panCircle1(_ gesture: UIPanGestureRecognizer) {
@@ -67,15 +56,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle1)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle1)
+
+        for circle in setForFunc {
             if circle1.frame.intersects(circle.frame) {
                 circle1.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle1)
                 print("Circle 1 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -93,15 +84,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle2)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle2)
+
+        for circle in setForFunc {
             if circle2.frame.intersects(circle.frame) {
                 circle2.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle2)
                 print("Circle 2 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -119,15 +112,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle3)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle3)
+
+        for circle in setForFunc {
             if circle3.frame.intersects(circle.frame) {
                 circle3.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle3)
                 print("Circle 3 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -145,15 +140,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle4)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle4)
+
+        for circle in setForFunc {
             if circle4.frame.intersects(circle.frame) {
                 circle4.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle4)
                 print("Circle 4 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -171,15 +168,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle5)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle5)
+
+        for circle in setForFunc {
             if circle5.frame.intersects(circle.frame) {
                 circle5.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle5)
                 print("Circle 5 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -197,15 +196,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle6)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle6)
+
+        for circle in setForFunc {
             if circle6.frame.intersects(circle.frame) {
                 circle6.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle6)
                 print("Circle 6 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -223,15 +224,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle7)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle7)
+
+        for circle in setForFunc {
             if circle7.frame.intersects(circle.frame) {
                 circle7.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle7)
                 print("Circle 7 was hidden. Circle \(circle.labelText) was modified")
             }
         }
@@ -249,15 +252,17 @@ class ViewController: UIViewController {
         //disappearing and modifing
         var targetCircle = MyCustomView()
         
-        workingSet.remove(circle8)
-        
-        for circle in workingSet {
+        var setForFunc = workingSet
+        setForFunc.remove(circle8)
+
+        for circle in setForFunc {
             if circle8.frame.intersects(circle.frame) {
                 circle8.removeFromSuperview()
                 targetCircle = circle
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                workingSet.remove(circle8)
                 print("Circle 8 was hidden. Circle \(circle.labelText) was modified")
             }
         }
