@@ -20,6 +20,7 @@
                                 <rect key="frame" x="52" y="77" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -33,11 +34,15 @@
                                         <color key="value" systemColor="systemGreenColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HjH-uK-FdM" appends="YES" id="Ote-LY-iJs"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPX-ii-nbb" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="52" y="291" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -51,11 +56,15 @@
                                         <color key="value" systemColor="systemIndigoColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AF1-Mj-0jq" appends="YES" id="2yC-7Z-815"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9D-IU-q7F" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="52" y="505" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -69,11 +78,15 @@
                                         <color key="value" systemColor="systemMintColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="tcv-oO-Ina" appends="YES" id="ZeG-cl-g6A"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfT-hu-hMZ" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="52" y="719" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -87,11 +100,15 @@
                                         <color key="value" systemColor="systemOrangeColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LNL-dD-iU9" appends="YES" id="vaU-AU-pin"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GiK-xz-2cT" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="255" y="291" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -105,11 +122,15 @@
                                         <color key="value" systemColor="systemPurpleColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mfu-Eb-Gp9" appends="YES" id="Fkl-Kn-5DU"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bnw-Ls-Mqf" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="255" y="505" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -123,11 +144,15 @@
                                         <color key="value" systemColor="systemRedColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kLv-Ev-GyT" appends="YES" id="XwS-BJ-QAV"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffj-Yp-40D" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="255" y="719" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -141,11 +166,15 @@
                                         <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="PSG-Cy-R5b" appends="YES" id="bUf-sK-yW1"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YM7-q9-KQx" customClass="MyCustomView" customModule="module_21_HW" customModuleProvider="target">
                                 <rect key="frame" x="255" y="77" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
                                         <color key="value" systemColor="systemPinkColor"/>
@@ -159,10 +188,13 @@
                                         <color key="value" systemColor="systemPinkColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vD9-ne-8eb" appends="YES" id="Vh4-cb-nEX"/>
+                                </connections>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="circle1" destination="tSt-Yk-1fp" id="YcQ-Yd-RpL"/>
@@ -176,14 +208,58 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="HjH-uK-FdM">
+                    <connections>
+                        <action selector="panCircle1:" destination="BYZ-38-t0r" id="JNj-u6-vj3"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Aog-kN-yM5"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="AF1-Mj-0jq">
+                    <connections>
+                        <action selector="panCircle2:" destination="BYZ-38-t0r" id="0cx-qC-4Mh"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="yTw-7j-YqG"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="tcv-oO-Ina">
+                    <connections>
+                        <action selector="panCircle3:" destination="BYZ-38-t0r" id="BXd-Ib-ogc"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="JTf-CU-tKn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="LNL-dD-iU9">
+                    <connections>
+                        <action selector="panCircle4:" destination="BYZ-38-t0r" id="2LQ-SP-yHP"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="x8N-HT-11e"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="vD9-ne-8eb">
+                    <connections>
+                        <action selector="panCircle5:" destination="BYZ-38-t0r" id="e7m-h4-CYH"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="3z9-oe-ibc"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Mfu-Eb-Gp9">
+                    <connections>
+                        <action selector="panCircle6:" destination="BYZ-38-t0r" id="Bpx-0B-OBO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="kLv-Ev-GyT">
+                    <connections>
+                        <action selector="panCircle7:" destination="BYZ-38-t0r" id="gax-bV-K0K"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="6Gb-pR-k7b"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="PSG-Cy-R5b">
+                    <connections>
+                        <action selector="panCircle8:" destination="BYZ-38-t0r" id="W4N-Pa-8Cd"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="MNg-r7-eVF"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="-27.455357142857142"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
