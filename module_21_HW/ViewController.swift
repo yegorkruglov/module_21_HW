@@ -41,6 +41,11 @@ class ViewController: UIViewController {
         
         for circle in workingSet {
             circle.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
+            let diameter = Int.random(in: 50...100)
+            circle.frame.size = CGSize(width: diameter, height: diameter)
+            circle.center.x = Double.random(in: 0...view.frame.maxX)
+            circle.center.y = Double.random(in: 100...view.frame.maxY)
+            circle.workingView.layer.cornerRadius = circle.frame.height / 2
         }
     }
     
