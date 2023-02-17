@@ -12,7 +12,6 @@ import UIKit
     
     @IBOutlet weak var labelForView: UILabel!
     
-    
     @IBOutlet var colorView: UIView!
     
     @IBInspectable var circleColor: UIColor {
