@@ -62,9 +62,10 @@ class ViewController: UIViewController {
             if initialCircle.frame.intersects(circle.frame) {
                 initialCircle.removeFromSuperview()
                 targetCircle = circle
-                targetCircle.frame.size.height += 20
-                targetCircle.frame.size.width += 20
-                targetCircle.circleColor = .blue
+                UIView.animate(withDuration: 1) {
+                    targetCircle.transform = targetCircle.transform.scaledBy(x: 1.1, y: 1.1)
+                    targetCircle.circleColor = .blue
+                }
                 targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(initialCircle)
                 print("Circle \(initialCircle.labelText) was hidden. Circle \(circle.labelText) was modified.")
