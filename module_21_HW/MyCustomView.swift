@@ -33,15 +33,6 @@ import UIKit
         }
     }
     
-//    @IBInspectable var labelBackgroundColor: UIColor {
-//        get {
-//            return labelForView.backgroundColor!
-//        }
-//        set(labelColor) {
-//            labelForView.backgroundColor = labelColor
-//        }
-//    }
-    
     var workingView: UIView!
     
     var xibName: String = "MyCustomView"
@@ -68,6 +59,7 @@ import UIKit
         workingView.frame = bounds
         workingView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         workingView.layer.cornerRadius = frame.size.width / 2
+        self.layer.cornerRadius = frame.size.width / 2
         addSubview(workingView)
     }
     

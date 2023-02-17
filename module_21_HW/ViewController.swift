@@ -66,6 +66,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle1)
                 print("Circle 1 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -94,6 +95,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle2)
                 print("Circle 2 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -122,6 +124,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle3)
                 print("Circle 3 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -150,6 +153,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle4)
                 print("Circle 4 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -178,6 +182,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle5)
                 print("Circle 5 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -206,6 +211,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle6)
                 print("Circle 6 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -234,6 +240,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle7)
                 print("Circle 7 was hidden. Circle \(circle.labelText) was modified")
             }
@@ -262,6 +269,7 @@ class ViewController: UIViewController {
                 targetCircle.frame.size.height += 10
                 targetCircle.frame.size.width += 10
                 targetCircle.circleColor = .blue
+                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(circle8)
                 print("Circle 8 was hidden. Circle \(circle.labelText) was modified")
             }
