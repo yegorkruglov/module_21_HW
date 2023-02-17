@@ -58,7 +58,6 @@ import UIKit
         workingView.frame = bounds
         workingView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         workingView.layer.cornerRadius = frame.size.width / 2
-        self.layer.cornerRadius = frame.size.width / 2
         addSubview(workingView)
     }
     
