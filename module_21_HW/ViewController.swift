@@ -69,9 +69,8 @@ class ViewController: UIViewController {
                 targetCircle = circle
                 UIView.animate(withDuration: 1) {
                     targetCircle.transform = targetCircle.transform.scaledBy(x: 1.1, y: 1.1)
-                    targetCircle.circleColor = .blue
+                    targetCircle.circleColor = UIColor(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1), alpha: 1)
                 }
-                targetCircle.workingView.layer.cornerRadius = targetCircle.workingView.frame.height / 2
                 workingSet.remove(initialCircle)
                 print("Circle \(initialCircle.labelText) was hidden. Circle \(circle.labelText) was modified.")
             }
